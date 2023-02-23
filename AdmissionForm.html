@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<style>
+    .container{
+        height: 2000px;
+        width: 700px;
+        border: black solid;
+        margin-top: 30px;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        background-color: rgb(241, 228, 207);
+    }
+    .div1{
+        height:500px;
+        width: 650px;
+        border:black solid;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+        background-color: white;
+    }
+   
+</style>
+<body>
+    <div class="container">
+        <center><h1>Admission Form</h1></center> <br><br>
+         <form>
+            <div class="div1"> 
+            <h1>Personal Information</h1><br><br> 
+           <strong> <label> Firstname </label> </strong>           
+             <input type="text" name="firstname" size="15"/>  &nbsp;&nbsp;
+             <strong>  <label> Lastname: </label> </strong>           
+             <input type="text" name="lastname" size="15"/> <br> <br>    
+             <strong>  Curreent  Address  </strong>  
+             <br>    
+             <textarea cols="80" rows="2" value="address">    
+             </textarea>    
+             <br> <br>
+             <strong>  Permanant Address  </strong>  
+             <br>    
+             <textarea cols="80" rows="2" value="address">    
+             </textarea>    
+             <br> <br>    
+             <strong>  <label>     
+             Gender :    
+             </label></strong> <br>    
+             <input type="radio" name="gender"/> Male <br>    
+             <input type="radio" name="gender"/> Female <br>    
+             <input type="radio" name="gender"/> Other    
+             &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+             <strong>  <label>     
+               DOB    
+                </label></strong>&nbsp;&nbsp; &nbsp;&nbsp; <input type="date" id="date">
+                <br> <br>    <br> <br>  
+                <strong> <label> Email</label> </strong>           
+                <input type="text" name="email" size="20"/>  &nbsp;&nbsp;  &nbsp;&nbsp;
+                <strong>  <label> Password</label> </strong>           
+                <input type="text" name="password" size="20"/> <br> <br>  
+            </div>  
+                <h1>Academic Information</h1><br><br>
+<p1>SSC</p1><br><br>
+                 <strong> <label> Collage Name </label> </strong>           
+             <input type="text" name="firstname" size="15"/>  &nbsp;&nbsp;
+             <strong> <label> Seat No. </label> </strong>           
+             <input type="number" name="firstname" size="15"/>
+             <br> <br>  
+             <strong> <label>Percentage</label> </strong>           
+             <input type="number" name="firstname" size="15"/> &nbsp;&nbsp;
+             <strong>  <label>     
+               Passout Year   
+                 </label></strong> <input type="date" id="date">
+                 <br><br>
+  <p1>HSC</p1><br><br>
+                 <strong> <label> Collage Name </label> </strong>           
+             <input type="text" name="firstname" size="15"/>  &nbsp;&nbsp;
+             <strong> <label> Seat No. </label> </strong>           
+             <input type="number" name="firstname" size="15"/>
+             <br> <br>  
+             <strong> <label> Percentage </label> </strong>           
+             <input type="number" name="firstname" size="15"/> &nbsp;&nbsp;
+             <strong>  <label>     
+               Passout Year   
+                 </label></strong> <input type="date" id="date"><br><br>
+
+ <p1>Graduction</p1><br><br>
+                 <strong> <label> Collage Name </label> </strong>           
+             <input type="text" name="firstname" size="15"/>  &nbsp;&nbsp;
+             <strong> <label> Seat No. </label> </strong>           
+             <input type="number" name="firstname" size="15"/>
+             <br> <br>  
+             <strong><label>Stream</label></strong>
+             
+<select name="stream" id="str">
+    <option value="volvo">B.Sc</option>
+    <option value="saab">B.Com</option>
+    <option value="mercedes">Computer Science</option>
+    <option value="audi">B.CS</option>
+    <option value="audi">Dimploma</option>
+  </select><br> <br>  
+             <strong> <label> Percentage </label> </strong>           
+             <input type="number" name="firstname" size="15"/> &nbsp;&nbsp;
+             <strong>  <label>     
+               Passout Year   
+                 </label></strong> <input type="date" id="date"><br><br><br>
+
+                 <h1>Upload Document</h1><br><br>
+
+                 <form>
+                    <strong>  <label>     
+                     Adhar Card:  
+                          </label></strong>
+                    <input type="file" id="myFile" name="filename"> &nbsp;&nbsp;
+                    <input type="submit">
+                  </form><br><br>
+                  <form>
+                    <strong>  <label>     
+                     Adhar Card:  
+                          </label></strong>
+                    <input type="file" id="myFile" name="filename"> &nbsp;&nbsp;
+                    <input type="submit">
+                  </form><br><br>
+                  <form>
+                    <strong>  <label>     
+                    Pan Card :
+                          </label></strong>
+                    <input type="file" id="myFile" name="filename"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    <input type="submit">
+                  </form><br><br>
+                  <form>
+                    <strong>  <label>     
+                    SSC Result :
+                          </label></strong>
+                    <input type="file" id="myFile" name="filename"> &nbsp;&nbsp; &nbsp;
+                    <input type="submit">
+                  </form><br><br>
+                  <form>
+                    <strong>  <label>     
+                     HSC Result :
+                          </label></strong>
+                    <input type="file" id="myFile" name="filename">&nbsp;&nbsp; &nbsp;
+                    <input type="submit">
+                  </form><br><br>
+                  <form>
+                    <strong>  <label>     
+                   Graduation Result :
+                          </label></strong>
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                  </form><br><br>
+             <br> <br>  
+             <strong>  <label>     
+              Query:
+                       </label></strong><br><br>
+                       <textarea cols="80" rows="6" value="address">    
+                    </textarea> 
+                    <br><br>
+             <input type="submit" value="Submit">    
+             <input type="reset" value="Reset">  
+             </form>
+     </div>
+</body>
+</html>
